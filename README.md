@@ -4,6 +4,7 @@
 mkdir sample-project && cd $_;
 composer create-project "laravel/laravel=6.*" .;
 composer require laravel/ui 1.*;
+php artisan ui vue;
 npm install;
 
 # １つ目のタブで
@@ -15,7 +16,9 @@ npm run hot
 
 `localhost:8000`にアクセス
 
-[Laravel5.8+vue.jsのHot Module Replacement | アールエフェクト](https://reffect.co.jp/laravel/laravel-vue-js-hot-reload-replacement)
+- [Vue.js + LaravelでシンプルなSPA構築チュートリアル：概要編 - Qiita](https://qiita.com/minato-naka/items/2d2def4d66ec88dc3ca2)
+- [Laravel5.8+vue.jsのHot Module Replacement | アールエフェクト](https://reffect.co.jp/laravel/laravel-vue-js-hot-reload-replacement)
+
 
 <!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
